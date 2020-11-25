@@ -1,0 +1,173 @@
+div#navbarSupportedContent {
+  font-size: 20px;
+}
+.btn-cruve {
+  background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
+  padding: 8px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 1px 0px 1px gray;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+.one {
+  background-image: linear-gradient(#6ad8d1, #7badec);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+.two {
+  background-image: linear-gradient(#0d2558, #de6463);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+.three {
+  background-image: linear-gradient(#e8dbc3, #5a5ac0);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+.itembg {
+  background-image: linear-gradient(#06aaec, #36b057);
+}
+.carousel-item {
+  transition: 2s;
+}
+@mixin fontstyle {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #0d052e;
+  color: #fff;
+}
+
+.hader-text {
+  h1,
+  h2 {
+    @include fontstyle;
+  }
+}
+#about {
+  background-image: linear-gradient(90deg, #09d1c9, #27a3db);
+  padding: 80px 0px;
+  img {
+    width: 100%;
+    animation: pulse 5s infinite;
+  }
+}
+.about-text {
+  @include fontstyle;
+  p {
+    color: rgb(66, 66, 66);
+  }
+}
+.header-image {
+  img {
+    width: 100%;
+    min-height: 350px;
+  }
+}
+.what-bg {
+  background-image: url(../image/what.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.font-style {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+.custom-div {
+  transition: 2s;
+}
+.custom-div:hover {
+  border-radius: 100px 0px;
+  background-image: linear-gradient(
+    160deg,
+    rgb(182, 161, 88),
+    #654fe4,
+    #51bfe4
+  );
+  box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+#featuer {
+  background-image: linear-gradient(90deg, #0094e8, #f15cb3);
+  padding: 50px 0px;
+}
+
+.team-Profile {
+  h2,
+  p {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+  }
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li {
+      margin-bottom: 10px;
+      padding-right: 5px;
+    }
+  }
+}
+#team {
+  padding: 50px 0px;
+  h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    padding: 20px 0px;
+  }
+}
+
+#contact {
+  background-color: #0c0d3d;
+  color: #fff;
+  h2,
+  h4,
+  p {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+  }
+}
+.list-unstyled {
+  li a {
+    color: #fff;
+  }
+  :hover {
+    text-decoration: none;
+    color: purple;
+  }
+}
+.footer-logo {
+  height: 80px;
+  margin-left: 5%;
+}
+
+.footer-bg {
+  padding: 50px 0px;
+  background-image: linear-gradient(60deg, #ea9087, #9789a3);
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 20px;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}

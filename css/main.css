@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+div#navbarSupportedContent {
+  font-size: 20px;
+}
+
+.btn-cruve {
+  background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
+  padding: 8px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  -webkit-box-shadow: 1px 0px 1px gray;
+          box-shadow: 1px 0px 1px gray;
+}
+
+.one {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6ad8d1), to(#7badec));
+  background-image: linear-gradient(#6ad8d1, #7badec);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+
+.two {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d2558), to(#de6463));
+  background-image: linear-gradient(#0d2558, #de6463);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+
+.three {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e8dbc3), to(#5a5ac0));
+  background-image: linear-gradient(#e8dbc3, #5a5ac0);
+  color: #fff;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+
+.itembg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#06aaec), to(#36b057));
+  background-image: linear-gradient(#06aaec, #36b057);
+}
+
+.carousel-item {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.hader-text h1,
+.hader-text h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #0d052e;
+  color: #fff;
+}
+
+#about {
+  background-image: -webkit-gradient(linear, left top, right top, from(#09d1c9), to(#27a3db));
+  background-image: linear-gradient(90deg, #09d1c9, #27a3db);
+  padding: 80px 0px;
+}
+
+#about img {
+  width: 100%;
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite;
+}
+
+.about-text {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #0d052e;
+  color: #fff;
+}
+
+.about-text p {
+  color: #424242;
+}
+
+.header-image img {
+  width: 100%;
+  min-height: 350px;
+}
+
+.what-bg {
+  background-image: url(../image/what.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.font-style {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+.custom-div {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.custom-div:hover {
+  border-radius: 100px 0px;
+  background-image: linear-gradient(160deg, #b6a158, #654fe4, #51bfe4);
+  -webkit-box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
+          box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+#featuer {
+  background-image: -webkit-gradient(linear, left top, right top, from(#0094e8), to(#f15cb3));
+  background-image: linear-gradient(90deg, #0094e8, #f15cb3);
+  padding: 50px 0px;
+}
+
+.team-Profile h2,
+.team-Profile p {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+.team-Profile ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team-Profile ul li {
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+#team {
+  padding: 50px 0px;
+}
+
+#team h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+#contact {
+  background-color: #0c0d3d;
+  color: #fff;
+}
+
+#contact h2,
+#contact h4,
+#contact p {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+.list-unstyled li a {
+  color: #fff;
+}
+
+.list-unstyled :hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.footer-logo {
+  height: 80px;
+  margin-left: 5%;
+}
+
+.footer-bg {
+  padding: 50px 0px;
+  background-image: linear-gradient(60deg, #ea9087, #9789a3);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 20px;
+  text-align: center;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+}
+/*# sourceMappingURL=main.css.map */
