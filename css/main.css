@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap");
 div#navbarSupportedContent {
   font-size: 20px;
 }
@@ -76,7 +77,8 @@ div#navbarSupportedContent {
 }
 
 .about-text p {
-  color: #424242;
+  color: #0c0d3d;
+  font-family: "Roboto", sans-serif;
 }
 
 .header-image img {

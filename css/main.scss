@@ -56,10 +56,12 @@ div#navbarSupportedContent {
     animation: pulse 5s infinite;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap");
 .about-text {
   @include fontstyle;
   p {
-    color: rgb(66, 66, 66);
+    color: #0c0d3d;
+    font-family: "Roboto", sans-serif;
   }
 }
 .header-image {
