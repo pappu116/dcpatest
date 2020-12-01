@@ -184,7 +184,7 @@ div#navbarSupportedContent {
   padding: 0px;
   margin: 0px;
   list-style: none;
-  display: inline-block;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
