@@ -240,11 +240,6 @@ div#navbarSupportedContent {
   color: purple;
 }
 
-.footer-logo {
-  height: 80px;
-  margin-left: 5%;
-}
-
 .footer-bg {
   padding: 50px 0px;
   background-image: linear-gradient(60deg, #ea9087, #9789a3);
